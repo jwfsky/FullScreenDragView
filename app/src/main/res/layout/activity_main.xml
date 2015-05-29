@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <test.yifan.cn.myviewdraghelpertest.view.FullScreenDragView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/drag">
+            <View
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#ffaadd"/>
+        <View
+            android:layout_marginTop="100dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#ffc6ff86"
+            />
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="200dp"
+            android:background="#ff4dff95"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/testBtn"
+                android:id="@+id/testBtn"
+                />
+        <Button
+            android:layout_marginLeft="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/testBtn"
+            android:id="@+id/testBtn1"
+            />
+        </test.yifan.cn.myviewdraghelpertest.view.FullScreenDragView>
+
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/testBtn"
+        android:id="@+id/dragBtn"
+        android:layout_below="@id/drag"
+        />-->
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyViewDragHelperTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="testBtn">测试按钮</string>
+</resources>
